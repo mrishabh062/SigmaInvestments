@@ -39,7 +39,7 @@
 html {
   font-size: 10px;
 }
-
+/* 
 html.dark-theme {
   --body-color: #020101;
   --primary-color: #fff;
@@ -70,7 +70,7 @@ html.dark-theme {
   --primary-link-new: #fff;
   --footer-text: #8b8b9a;
   --footer-border: #8b8b9a;
-}
+} */
 
 h1,
 h2,
@@ -261,7 +261,45 @@ li {
   padding: 0;
   margin: 0;
 }
+.li-tc {
+  color: #000;
+  list-style:none;
+  position: relative;
+  padding-left:50px;
+  line-height: 2;
+  font-size:32px;
+}
 
+.li-tc:before {
+  font-family:FontAwesome;
+  position: relative;
+  left: 0;
+  color: #392ae6;
+  font-size:32px;
+}
+
+.li-tc.one:before {
+   content:"\f111"; 
+}
+.li-tc.two:before {
+   content:"\f00c";
+}
+.li-tc.three:before {
+   content:"\f10c";
+}
+.li-tc.four:before {
+   content:"\f004";
+}
+.li-tc.five:before {
+   content:"\f1e2";
+}
+.li-tc.six:before {
+   content:"\f0e7";
+}
+
+li:hover:before {
+  color:#fff;
+}
 .ul-tc{ 
     list-style-type: disc;
     padding: 10px;
@@ -362,15 +400,15 @@ html:not(.dark-theme) .dark-theme-comp {
 
 .navbar-brand .brand-icon {
   transform: scale(0.7);
-  color: var(--primary-color);
-  position: relative;
-  left: 20px;
+  color:  #000;
+  position: absolute;
+  left:-25px;
 }
 
 .navbar-brand .brand-name {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
-  color: var(--primary-lesser-dark);
+  color: #000;
   position: relative;
   left: -47px;
 }
@@ -382,6 +420,11 @@ html:not(.dark-theme) .dark-theme-comp {
 
 .main-header .navbar-nav {
   margin-left: auto;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .nav-item .nav-link {
@@ -390,7 +433,8 @@ html:not(.dark-theme) .dark-theme-comp {
 }
 
 .nav-item .nav-link:hover {
-  color: var(--primary-link-new);
+  color:  #392ae6;
+  transform: scale(0.97);
 }
 
 .navbar-nav .nav-item:not(:first-child) {
@@ -454,15 +498,7 @@ html:not(.dark-theme) .dark-theme-comp {
   transform: translateY(-50%);
 }
 
-.theme-toggle-label::before {
-  background-image: url(./../images/icons/sun.svg);
-  left: 3px;
-}
 
-.theme-toggle-label::after {
-  background-image: url(./../images/icons/moon.svg);
-  right: 3px;
-}
 
 .theme-toggle-input {
   position: absolute;
@@ -968,6 +1004,7 @@ html:not(.dark-theme) .dark-theme-comp {
 .request-form .form-submit {
   margin-top: 5rem;
 }
+
 
 .main-footer {
   background-color: var(--footer-background);
