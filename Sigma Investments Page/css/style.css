@@ -410,7 +410,7 @@ html:not(.dark-theme) .dark-theme-comp {
   font-weight: 700;
   color: #000;
   position: relative;
-  left: -20px;
+  left: -10px;
 }
 
 .main-header .navbar {
