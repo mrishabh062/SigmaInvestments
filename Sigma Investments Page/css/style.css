@@ -275,7 +275,7 @@ li {
   position: relative;
   left: 0;
   color: #392ae6;
-  font-size:32px;
+  font-size:25px;
 }
 
 .li-tc.one:before {
@@ -410,7 +410,7 @@ html:not(.dark-theme) .dark-theme-comp {
   font-weight: 700;
   color: #000;
   position: relative;
-  left: -47px;
+  left: -20px;
 }
 
 .main-header .navbar {
