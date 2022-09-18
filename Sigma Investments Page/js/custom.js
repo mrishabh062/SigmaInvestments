@@ -2,17 +2,17 @@
 // LOAD ALL ICONS
 (function () {
     const data = {
-        sitelogo: `
-        <svg id="changeColor" fill="#DC7633" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" zoomAndPan="magnify" viewBox="0 0 375 374.9999" height="200" version="1.0" transform="rotate(315)">
-        <defs></defs>
-        <g>
+    //     sitelogo: `
+    //     <svg id="changeColor" fill="#DC7633" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" zoomAndPan="magnify" viewBox="0 0 375 374.9999" height="200" version="1.0" transform="rotate(315)">
+    //     <defs></defs>
+    //     <g>
         
-        </g>
-        <g id="inner-icon" transform="translate(85, 75)"> <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="IconChangeColor" height="195" width="195">
-        <path d="M16,16H10.41l3.3-3.29a1,1,0,0,0,0-1.42L10.41,8H16a1,1,0,0,0,0-2H8a1,1,0,0,0-.92.62,1,1,0,0,0,.21,1.09L11.59,12l-4.3,4.29a1,1,0,0,0-.21,1.09A1,1,0,0,0,8,18h8a1,1,0,0,0,0-2Z" id="mainIconPathAttribute" fill="#000000" filter="url(#shadow)">
-        </path><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation="0.1" dx="0.2" dy="-0.6" flood-color="black"></feDropShadow></filter></svg> </g>
-        </svg><mask id="mask0_47_27" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="31" height="37">
-    `,
+    //     </g>
+    //     <g id="inner-icon" transform="translate(85, 75)"> <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="IconChangeColor" height="195" width="195">
+    //     <path d="M16,16H10.41l3.3-3.29a1,1,0,0,0,0-1.42L10.41,8H16a1,1,0,0,0,0-2H8a1,1,0,0,0-.92.62,1,1,0,0,0,.21,1.09L11.59,12l-4.3,4.29a1,1,0,0,0-.21,1.09A1,1,0,0,0,8,18h8a1,1,0,0,0,0-2Z" id="mainIconPathAttribute" fill="#000000" filter="url(#shadow)">
+    //     </path><filter id="shadow"><feDropShadow id="shadowValue" stdDeviation="0.1" dx="0.2" dy="-0.6" flood-color="black"></feDropShadow></filter></svg> </g>
+    //     </svg><mask id="mask0_47_27" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="31" height="37">
+    // `,
         moonIcon: `
     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 6.54054C11.8949 7.67776 11.4681 8.76152 10.7696 9.66503C10.071 10.5685 9.12957 11.2544 8.05544 11.6424C6.9813 12.0304 5.81888 12.1044 4.70419 11.8559C3.5895 11.6073 2.56866 11.0465 1.7611 10.2389C0.953538 9.43135 0.39267 8.4105 0.144121 7.29581C-0.104428 6.18112 -0.0303768 5.0187 0.357609 3.94457C0.745595 2.87043 1.43147 1.929 2.33497 1.23045C3.23848 0.531888 4.32224 0.105093 5.45946 0C4.79365 0.900756 4.47327 2.01056 4.55656 3.12758C4.63986 4.24459 5.12132 5.2946 5.91336 6.08664C6.7054 6.87869 7.75541 7.36014 8.87242 7.44344C9.98944 7.52673 11.0992 7.20635 12 6.54054Z" fill="white"/>
