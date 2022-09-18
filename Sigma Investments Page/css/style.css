@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,400&family=Montserrat:ital,wght@0,300;0,800;1,400&display=swap');
+
+/* ************************************************
+                Default page Settings
+*************************************************** */
+
 :root {
   --body-color: #ecf0f3;
   --primary-color: #000;
@@ -35,42 +41,14 @@
 }
 *{
   scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
 }
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
-/* 
-html.dark-theme {
-  --body-color: #020101;
-  --primary-color: #fff;
-  --primary-color-hover: #d5d5d5;
-  --primary-button-text: #000;
-  --header-background: rgba(0, 0, 0, 0.6);
-  --nav-background: rgba(0, 0, 0, 1);
-  --primary-lesser-dark: #fff;
-  --heading-primary: #fff;
-  --heading-secondary: #fff;
-  --heading-tertiary: rgba(255, 255, 255, 0.8);
-  --paragraph-text: #9f9fb5;
-  --paragraph-text-muted: #fff;
-  --title-description: #9f9fb5;
-  --quoted-text: #fff;
-  --service-card-background: rgb(111 88 129 / 50%);
-  --service-card-logo-background: rgba(100, 90, 90, 0.47);
-  --request-form-background: #241d2a;
-  --request-form-border: #7d737f;
-  --slider-item-background: rgba(111, 88, 129, 0.32);
-  --input-background: rgba(0, 0, 0, 0.3);
-  --toggle-border: #4a5f80;
-  --primary-link: rgba(255, 255, 255, 0.8);
-  --primary-link-hover: rgba(255, 255, 255, 0.6);
-  --toggle-background: #000;
-  --footer-background: #000;
-  --header-links-new: #8b8b9a;
-  --primary-link-new: #fff;
-  --footer-text: #8b8b9a;
-  --footer-border: #8b8b9a;
-} */
 
 h1,
 h2,
@@ -372,7 +350,8 @@ html:not(.dark-theme) .dark-theme-comp {
 
 /* ======== Header ========== */
 .main-header {
-  height: 120px;
+  height: 9.6rem;
+  padding: 0  5.4rem;
   transition: var(--default-transition);
   background-color: whitesmoke;
   display: flex;
@@ -466,67 +445,14 @@ html:not(.dark-theme) .dark-theme-comp {
   display: block;
 }
 
-.theme-toggle {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-left: 4rem;
-}
-
-.theme-toggle-label {
-  position: relative;
-  width: 45px;
-  height: 22px;
-  border: 2px solid var(--toggle-border);
-  transition: var(--default-transition);
-  border-radius: 10px;
-  background-color: var(--toggle-background);
-  padding: 2px;
-  cursor: pointer;
-}
-
-.theme-toggle-label::before,
-.theme-toggle-label::after {
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 
 
-.theme-toggle-input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
 
-.theme-toggle-label .toggle-round {
-  border-radius: 50%;
-  border: 2px solid #f6bb42;
-  background-color: #ffda8f;
-  width: 14px;
-  height: 14px;
-  display: block;
-  position: relative;
-  z-index: 2;
-  transition: var(--default-transition);
-  margin-left: calc(100% - 14px);
-}
+/* *****************************************************
+  hero Section
 
-.dark-theme .theme-toggle-label .toggle-round {
-  border-color: #fff;
-  background-color: #fff;
-  margin-left: calc(50% - 18px);
-}
+**********************************************************/
 
 .main-hero {
   height: 100vh;
