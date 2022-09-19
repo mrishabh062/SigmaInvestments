@@ -383,30 +383,22 @@ html:not(.dark-theme) .dark-theme-comp {
   color:  #000;
   position: absolute;
   margin-left:-20%;
-  /* height: 31; */
-  /* width:37; */
+  flex: 1;
+  gap: 2px;
+}
+.navbar-brand{
+  gap: 10px;
 }
 
-.navbar-brand .brand-icon>img {
-
-  /* max-width: 25%; */
-  /* height: auto; */
-  /* padding-left: 4e; */
-  /* position: relative; */
-  margin-left:4em; 
-  width: 230px;
-  height: 127px;
-  
-  /* margin: 16px;  */
-  border-radius: 15%;
-  
+.brand-icon>img {
+  transform: scale(0.3);
 }
 .navbar-brand .brand-name {
   font-size: 30px;
   font-weight: 700;
   color: #000;
   position: relative;
-  margin-left: 4em;
+  margin-left: 2em;
 }
 
 .main-header .navbar {
