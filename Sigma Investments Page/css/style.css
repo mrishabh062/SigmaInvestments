@@ -383,7 +383,23 @@ html:not(.dark-theme) .dark-theme-comp {
   color:  #000;
   position: absolute;
   margin-left:-20%;
-    
+  /* height: 31; */
+  /* width:37; */
+}
+
+.navbar-brand .brand-icon>img {
+
+  /* max-width: 25%; */
+  /* height: auto; */
+  /* padding-left: 4e; */
+  /* position: relative; */
+  margin-left:4em; 
+  width: 230px;
+  height: 127px;
+  
+  /* margin: 16px;  */
+  border-radius: 15%;
+  
 }
 .navbar-brand .brand-name {
   font-size: 30px;

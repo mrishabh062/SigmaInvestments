@@ -365,7 +365,7 @@
       -ms-flex-pack: center;
       justify-content: center;
     } */
-    .brand-icon{
+    .brand-icon>img{
       position: absolute;
       top: 10px;
       right: 100px;
